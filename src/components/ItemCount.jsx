@@ -25,7 +25,7 @@ const ItemCount = ({stock}) => {
     }
 
     return(
-        <div className="container">
+        <div className="container mt-1">
             <div className="row">
                 <div className="col">
                     <div className="btn-group" role="group" aria-label="Basic example">

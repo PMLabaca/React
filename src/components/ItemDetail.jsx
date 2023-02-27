@@ -3,7 +3,7 @@ import ItemCount from "./ItemCount"
 
 const ItemDetail = ({item}) => {
     return(
-        <div className="container">
+        <div className="container d-flex">
             <div className="row">
                 <div className="col">
                     <img src={item.img} alt={item.nombre} />
